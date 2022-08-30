@@ -10,9 +10,9 @@ Ejemplo 2: $a = 5; $b = 1; $c = 5; => se muestra un mensaje “No hay valor del 
 
 */
 
-$a=5;
-$b=1;
-$c=10;
+$a=3;
+$b=5;
+$c=1;
 $resultado=0;
 
 if(($a>$b&&$a<$c)||($a>$c&&$a<$b))
