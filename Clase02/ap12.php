@@ -12,8 +12,6 @@ function invertirPalabra($mensaje)
     $contador=count($mensaje)-1;
     $retorno=null;
     
-    echo $contador;
-    
     for ($i=$contador; $i>=0  ; $i--) { 
            $retorno=$retorno.$mensaje[$i];
         }
